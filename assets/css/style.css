@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 414px;
+    height: 896px;
+    background-color: rgb(38, 18, 18);
+}
+
+img{
+    border-radius: 100px;
+    border: 5px solid orange;
+    margin-top: 200px;
+}
+
+.card-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 25px;
+}
+
+.card-name__hoten{
+    font-size: 35px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.card-name__hmmm{
+    font-size: 30px;
+    color: orange;
+}
+
+.card-mxh{
+    margin-top: 75px;
+    font-size: 45px;
+}
+
+.card-mxh a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-mxh a i:hover{
+    color: orange;
+}
